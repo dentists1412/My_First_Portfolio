@@ -2,18 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Task 1 - Headings and Paragraphs</title>
+  <title>Tweets Page</title>
 </head>
 <body>
-  <h1>Main Heading</h1>
-  <p>This is a paragraph under the main heading.</p>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
+  <main>
+    <article>
+      <h1>My Tweets</h1>
+      <p>Here is an embedded tweet:</p>
 
-  <h2>Subheading</h2>
-  <h3>Sub-subheading</h3>
-  <p>This is a paragraph under the sub-subheading.</p>
-  <p>This is another paragraph under a subheading.</p>
-  <p>This is yet another paragraph under a subheading.</p>
-  <p>This is the last paragraph under a subheading.</p>
-  <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="Descriptive for the image">
+      <!-- Example embedded tweet -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Just setting up my twttr</p>
+        &mdash; Jack (@jack) 
+        <a href="https://twitter.com/jack/status/20">March 21, 2006</a>
+      </blockquote> 
+
+      <!-- Twitter script -->
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+  <footer>
+    <p>Made by Victor Kofi Honyam - <a href="https://github.com/dentists1412" target="_blank">here</a></p>
+  </footer>
 </body>
 </html>
